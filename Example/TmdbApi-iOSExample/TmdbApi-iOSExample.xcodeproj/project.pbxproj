@@ -12,8 +12,23 @@
 		7E1C8DD81E719AEF00A9F1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8DD61E719AEF00A9F1B4 /* Main.storyboard */; };
 		7E1C8DDA1E719AEF00A9F1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8DD91E719AEF00A9F1B4 /* Assets.xcassets */; };
 		7E1C8DDD1E719AEF00A9F1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8DDB1E719AEF00A9F1B4 /* LaunchScreen.storyboard */; };
-		7E1C8DE61E71A1ED00A9F1B4 /* TmdbApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C8DE51E71A1ED00A9F1B4 /* TmdbApi.framework */; };
+		7E1C8DEE1E71A8D900A9F1B4 /* TmdbApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C8DE51E71A1ED00A9F1B4 /* TmdbApi.framework */; };
+		7E1C8DEF1E71A8D900A9F1B4 /* TmdbApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C8DE51E71A1ED00A9F1B4 /* TmdbApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E1C8DF01E71A8D900A9F1B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7E1C8DEF1E71A8D900A9F1B4 /* TmdbApi.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7E1C8DCF1E719AEF00A9F1B4 /* TmdbApi-iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TmdbApi-iOSExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1C8DE61E71A1ED00A9F1B4 /* TmdbApi.framework in Frameworks */,
+				7E1C8DEE1E71A8D900A9F1B4 /* TmdbApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +101,7 @@
 				7E1C8DCB1E719AEF00A9F1B4 /* Sources */,
 				7E1C8DCC1E719AEF00A9F1B4 /* Frameworks */,
 				7E1C8DCD1E719AEF00A9F1B4 /* Resources */,
+				7E1C8DF01E71A8D900A9F1B4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
