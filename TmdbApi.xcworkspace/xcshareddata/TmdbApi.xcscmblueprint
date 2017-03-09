@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127" : 9223372036854775807,
+    "8B123162C394A0A0A138779108E4C59DD771865A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A8FA64F3-FA66-4C83-A4C3-870C17A21D81",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127" : "TmdbApi\/Library\/ObjectMapper\/",
+    "8B123162C394A0A0A138779108E4C59DD771865A" : "TmdbApi\/Library\/RxSwift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TmdbApi",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TmdbApi.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Hearst-DD\/ObjectMapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveX\/RxSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B123162C394A0A0A138779108E4C59DD771865A"
+    }
+  ]
+}

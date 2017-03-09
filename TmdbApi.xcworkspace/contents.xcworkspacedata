@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TmdbApi.playground">
+   </FileRef>
+   <Group
+      location = "group:Library"
+      name = "Library">
+      <FileRef
+         location = "group:RxSwift/Rx.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:ObjectMapper/ObjectMapper.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Example"
+      name = "Example">
+      <FileRef
+         location = "group:TmdbApi-iOSExample/TmdbApi-iOSExample.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "container:TmdbApi.xcodeproj">
+   </FileRef>
+</Workspace>
