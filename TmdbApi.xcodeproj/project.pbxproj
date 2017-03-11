@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E1C8BE41E71919D00A9F1B4 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8BE11E71919D00A9F1B4 /* Info-tvOS.plist */; };
 		7E1C8BE51E71919D00A9F1B4 /* TmdbApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1C8BE21E71919D00A9F1B4 /* TmdbApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E1C8C801E7191C500A9F1B4 /* TmdbAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C8BE71E7191C400A9F1B4 /* TmdbAuth.swift */; };
 		7E1C8C811E7191C500A9F1B4 /* TmdbAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1C8BE71E7191C400A9F1B4 /* TmdbAuth.swift */; };
@@ -272,7 +271,61 @@
 		7E1C8D8A1E7197CF00A9F1B4 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C8D881E7197CF00A9F1B4 /* ObjectMapper.framework */; };
 		7E1C8D8B1E7197CF00A9F1B4 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C8D891E7197CF00A9F1B4 /* RxSwift.framework */; };
 		7E1C8D8C1E71981700A9F1B4 /* TmdbApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1C8BE21E71919D00A9F1B4 /* TmdbApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC61CD31E731EA20037AFAA /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8BE11E71919D00A9F1B4 /* Info-tvOS.plist */; };
+		7EC61CD41E731EA50037AFAA /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1C8BE01E71919D00A9F1B4 /* Info-iOS.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E9DA7061E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F7619F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOS";
+		};
+		7E9DA7081E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1602FF1AC023D5000CD69A;
+			remoteInfo = "ObjectMapper-Mac";
+		};
+		7E9DA70A1E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A2AD03D1B2C78540097E150;
+			remoteInfo = "ObjectMapper-watchOS";
+		};
+		7E9DA70C1E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A05B7A61BE274BE00F19B53;
+			remoteInfo = "ObjectMapper-tvOS";
+		};
+		7E9DA70E1E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F8119F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOSTests";
+		};
+		7E9DA7101E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1603091AC023D6000CD69A;
+			remoteInfo = "ObjectMapper-MacTests";
+		};
+		7E9DA7121E7375E50091110E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A05B7AF1BE274BE00F19B53;
+			remoteInfo = "ObjectMapper-tvOSTests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7E1C8BC91E71909C00A9F1B4 /* TmdbApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TmdbApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -413,6 +466,7 @@
 		7E1C8D851E7197C500A9F1B4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Library/RxSwift/build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
 		7E1C8D881E7197CF00A9F1B4 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "Library/ObjectMapper/build/Debug-appletvos/ObjectMapper.framework"; sourceTree = "<group>"; };
 		7E1C8D891E7197CF00A9F1B4 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Library/RxSwift/build/Debug-appletvos/RxSwift.framework"; sourceTree = "<group>"; };
+		7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectMapper.xcodeproj; path = ObjectMapper/ObjectMapper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,6 +494,7 @@
 		7E1C8BBD1E71902500A9F1B4 = {
 			isa = PBXGroup;
 			children = (
+				7EC61BF41E731E4B0037AFAA /* Library */,
 				7E1C8BDF1E7190EA00A9F1B4 /* Source */,
 				7E1C8BCA1E71909C00A9F1B4 /* Products */,
 				7E1C8D831E7197C500A9F1B4 /* Frameworks */,
@@ -805,6 +860,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E9DA6FD1E7375E50091110E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E9DA7071E7375E50091110E /* ObjectMapper.framework */,
+				7E9DA7091E7375E50091110E /* ObjectMapper.framework */,
+				7E9DA70B1E7375E50091110E /* ObjectMapper.framework */,
+				7E9DA70D1E7375E50091110E /* ObjectMapper.framework */,
+				7E9DA70F1E7375E50091110E /* ObjectMapper-iOSTests.xctest */,
+				7E9DA7111E7375E50091110E /* ObjectMapper-MacTests.xctest */,
+				7E9DA7131E7375E50091110E /* ObjectMapper-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC61BF41E731E4B0037AFAA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */,
+				7EC61C351E731E4B0037AFAA /* RxSwift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7EC61C351E731E4B0037AFAA /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -896,6 +981,12 @@
 			mainGroup = 7E1C8BBD1E71902500A9F1B4;
 			productRefGroup = 7E1C8BCA1E71909C00A9F1B4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E9DA6FD1E7375E50091110E /* Products */;
+					ProjectRef = 7EC61CBB1E731E5E0037AFAA /* ObjectMapper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7E1C8BC81E71909C00A9F1B4 /* TmdbApi-iOS */,
@@ -904,12 +995,64 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7E9DA7071E7375E50091110E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 7E9DA7061E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA7091E7375E50091110E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 7E9DA7081E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA70B1E7375E50091110E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 7E9DA70A1E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA70D1E7375E50091110E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 7E9DA70C1E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA70F1E7375E50091110E /* ObjectMapper-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-iOSTests.xctest";
+			remoteRef = 7E9DA70E1E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA7111E7375E50091110E /* ObjectMapper-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-MacTests.xctest";
+			remoteRef = 7E9DA7101E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E9DA7131E7375E50091110E /* ObjectMapper-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-tvOSTests.xctest";
+			remoteRef = 7E9DA7121E7375E50091110E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7E1C8BC71E71909C00A9F1B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1C8BE41E71919D00A9F1B4 /* Info-tvOS.plist in Resources */,
+				7EC61CD41E731EA50037AFAA /* Info-iOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -917,6 +1060,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC61CD31E731EA20037AFAA /* Info-tvOS.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
