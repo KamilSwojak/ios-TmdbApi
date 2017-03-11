@@ -17,11 +17,11 @@ public class TmdbAuth{
     private var authState: Variable<TmdbAuthState> = Variable(.NotSignedIn)
     public var sessionId: Variable<String?> = Variable(nil)
     
-    var authStateObservable: Observable<TmdbAuthState> {
+    public var authStateObservable: Observable<TmdbAuthState> {
         return authState.asObservable()
     }
     
-    var currentState: TmdbAuthState{
+    public var currentState: TmdbAuthState{
         return authState.value
     }
 
@@ -55,7 +55,7 @@ public class TmdbAuth{
             }
     }
     
-    func logout(){
+    public func logout(){
         self.ongoingRequest?.dispose()
         self.sessionId.value = nil
         self.authState.value = .NotSignedIn
