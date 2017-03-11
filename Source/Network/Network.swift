@@ -341,7 +341,7 @@ private func getDataWithObserver(_ observer: AnyObserver<Data>, data: Data?, url
 
 //MARK: Errors
 
-enum RequestError: Error{
+public enum RequestError: Error{
     case NoResponse
     case NoHttpResponse
     case NoHttpCodeResponse
